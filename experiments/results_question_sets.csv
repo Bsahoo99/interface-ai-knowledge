@@ -1,0 +1,13 @@
+when,label,variant,scale,eval,questions,accuracy,consistency,speed_score,score_no_conflicts,source_hit_rate,p50_ms,p95_ms,max_ms,first_answer_ms,ingest_s,peak_mem_mb,conflicts_found,notes
+2026-11-06 00:27,baseline BM25 on public_eval,solution,1,public_eval.jsonl,40,0.5886,1.0,1.0,0.5886,0.625,2.8,5.9,7.1,5.3,2.32,236.3,35,
+2026-11-06 00:27,baseline BM25 on reworded_eval,solution,1,reworded_eval.jsonl,40,0.4264,1.0,1.0,0.4264,0.5,2.3,6.1,6.7,1.7,2.32,235.9,35,
+2026-11-06 00:27,baseline BM25 on public_plus_reworded,solution,1,public_plus_reworded.jsonl,80,0.5075,0.8,1.0,0.4896,0.562,2.7,6.2,7.0,5.9,2.31,236.3,35,
+2026-11-06 00:28,search_embed on reworded_eval,experiments/variants/search_embed,1,reworded_eval.jsonl,40,0.3411,1.0,1.0,0.3411,0.375,5.2,8.9,643.8,643.8,2.57,562.1,35,
+2026-11-06 00:28,search_embed on public_plus_reworded,experiments/variants/search_embed,1,public_plus_reworded.jsonl,80,0.4128,0.775,1.0,0.3964,0.438,4.1,6.4,421.1,421.1,2.51,587.6,35,
+2026-11-06 00:28,search_hybrid on reworded_eval,experiments/variants/search_hybrid,1,reworded_eval.jsonl,40,0.3566,1.0,1.0,0.3566,0.375,7.6,38.5,459.6,459.6,2.53,586.5,35,
+2026-11-06 00:28,search_hybrid on public_plus_reworded,experiments/variants/search_hybrid,1,public_plus_reworded.jsonl,80,0.4677,0.775,1.0,0.4491,0.5,7.3,13.9,428.8,428.8,2.56,588.2,35,
+2026-11-06 00:29,baseline BM25 on heldout_eval,solution,1,heldout_eval.jsonl,21,0.5452,1.0,1.0,0.5452,0.667,4.2,8.1,8.9,8.9,2.33,236.2,35,
+2026-11-06 00:29,search_embed on heldout_eval,experiments/variants/search_embed,1,heldout_eval.jsonl,21,0.3548,1.0,1.0,0.3548,0.667,4.7,8.6,634.7,634.7,2.56,561.1,35,
+2026-11-06 00:29,search_hybrid on heldout_eval,experiments/variants/search_hybrid,1,heldout_eval.jsonl,21,0.5381,1.0,1.0,0.5381,0.667,11.0,51.2,456.3,456.3,2.58,571.1,35,
+2026-11-06 00:45,baseline BM25 on heldout_eval (v2 sets),solution,1,heldout_eval.jsonl,21,0.5452,1.0,1.0,0.5452,0.667,4.4,8.3,8.3,8.3,2.39,234.6,35,
+2026-11-06 00:46,baseline BM25 on public_plus_reworded (v2 sets),solution,1,public_plus_reworded.jsonl,80,0.5075,0.7625,1.0,0.4862,0.562,3.0,6.8,8.6,5.9,2.36,236.4,35,

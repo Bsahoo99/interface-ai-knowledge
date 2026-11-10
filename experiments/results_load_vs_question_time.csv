@@ -1,0 +1,9 @@
+when,label,variant,scale,eval,questions,accuracy,consistency,speed_score,score_no_conflicts,p50_ms,p95_ms,max_ms,first_answer_ms,ingest_s,peak_mem_mb,conflicts_found,notes
+2026-11-05 20:45,D: load-time (current),solution,1,public_eval.jsonl,40,0.5886,1.0,1.0,0.5886,3.0,67.3,74.2,74.2,1.97,217.3,35,
+2026-11-05 20:46,A: question-time,experiments/variants/query_time,1,public_eval.jsonl,40,0.5886,1.0,1.0,0.5886,607.4,651.0,651.8,651.8,0.0,205.1,35,
+2026-11-05 20:46,D: load-time,solution,2,public_eval.jsonl,40,0.6072,1.0,1.0,0.6072,6.5,145.9,149.6,145.9,4.04,326.0,35,
+2026-11-05 20:48,A: question-time,experiments/variants/query_time,2,public_eval.jsonl,40,0.5809,1.0,1.0,0.5809,1291.3,1755.1,2376.4,1324.0,0.0,322.5,35,
+2026-11-05 20:48,D: load-time,solution,4,public_eval.jsonl,40,0.6072,1.0,1.0,0.6072,13.8,271.9,319.5,319.5,8.06,558.1,35,
+2026-11-05 20:50,A: question-time,experiments/variants/query_time,4,public_eval.jsonl,40,0.6072,1.0,0.9716,0.6042,2474.2,2512.0,2519.9,2494.0,0.0,513.0,35,
+2026-11-05 20:51,D2: load-time + index built at load,solution,1,public_eval.jsonl,40,0.5886,1.0,1.0,0.5886,2.8,6.0,6.9,5.4,2.32,236.3,35,
+2026-11-05 20:51,D2: load-time + index built at load,solution,4,public_eval.jsonl,40,0.6072,1.0,1.0,0.6072,13.0,102.3,113.2,113.2,9.29,616.1,35,

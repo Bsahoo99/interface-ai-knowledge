@@ -1,0 +1,21 @@
+results/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+snapshots/0*/
+snapshots_zip/
+snapshots/*/
+*.zip
+
+# local experiment environment
+.venv-embed/
+experiments/.embed_cache/
+experiments/reader_logs/
+experiments/scratch_runs/
+
+# the assignment brief belongs to the organisers; graders already have it
+Knowledge-Hackathon-Assignment.pdf
+
+# our working design notes, kept private
+DECISIONS.md
